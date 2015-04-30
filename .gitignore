@@ -1,0 +1,25 @@
+.idea/
+_deps
+build
+target
+out
+lib
+# use glob syntax.
+syntax: glob
+*.class
+*.jar
+*~
+.DS_Store
+*.#*
+*#*
+*.classpath
+*.project
+*.settings
+*.dot
+.cake/
+.lein-failures
+.lein-deps-sum
+doc
+*.ipr
+*.iws
+*.iml
