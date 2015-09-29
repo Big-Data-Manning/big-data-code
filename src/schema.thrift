@@ -21,7 +21,7 @@ enum GenderType {
   FEMALE = 2
 }
 
-union PersonPropertyValue {
+struct PersonPropertyValue {
   1: string full_name;
   2: GenderType gender;
   3: Location location;
@@ -74,7 +74,7 @@ struct Pedigree {
   3: required OrigSystem system;
 }
 
-union DataUnit {
+struct DataUnit {
   1: PersonProperty person_property;
   2: PageProperty page_property;
   3: EquivEdge equiv;
